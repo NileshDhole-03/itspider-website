@@ -127,7 +127,7 @@ export default function CourseDetail() {
             <div className="sticky top-24 card-surface p-7 flex flex-col gap-4">
               <h3 className="font-bold text-lg text-ink-primary">Ready to get started?</h3>
               <p className="text-sm text-ink-secondary">Enroll in {course.title} or talk to a counselor to plan your learning path.</p>
-              <Button to="/contact" variant="primary">Enroll Now</Button>
+              <Button href="https://itspiderspune.akamai.net.in/" variant="primary">Enroll Now</Button>
               <Button to="/contact" variant="secondary" icon={false}>Talk to Counselor</Button>
               <a
                 href="https://wa.me/919206060304"

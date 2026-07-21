@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 320" width="280" height="320">
+  <!-- Circle -->
+  <circle cx="140" cy="130" r="105" fill="none" stroke="#1a2456" stroke-width="16"/>
+  <!-- I bar (red) -->
+  <path d="M115 55 L135 55 L135 205 L115 205 Z" fill="#E31837"/>
+  <!-- T top (navy) intersecting I -->
+  <path d="M95 55 L115 55 L115 75 L95 75 Z" fill="#1a2456"/>
+  <!-- T crossbar on the right (navy) -->
+  <path d="M135 55 L185 55 L185 75 L135 75 Z" fill="#1a2456"/>
+  <!-- T vertical going down-right (navy) - stylized K leg -->
+  <path d="M155 75 L175 75 L175 155 L155 155 Z" fill="#1a2456"/>
+  <!-- K upper diagonal (navy) -->
+  <path d="M155 115 L195 60 L210 75 L170 130 Z" fill="#1a2456"/>
+  <!-- K lower diagonal (navy) -->
+  <path d="M155 145 L210 210 L190 220 L140 160 Z" fill="#1a2456"/>
+  <!-- SPIDERS text -->
+  <text x="140" y="298" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="42" letter-spacing="12" fill="#1a2456">SPIDERS</text>
+</svg>

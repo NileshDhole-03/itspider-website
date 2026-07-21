@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body text-ink-primary bg-white antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  ::selection {
+    @apply bg-accent/20;
+  }
+  :focus-visible {
+    outline: 2px solid #2563EB;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .section-px {
+    @apply px-6 sm:px-8 lg:px-10;
+  }
+  .container-max {
+    @apply max-w-container mx-auto w-full;
+  }
+  .section-y {
+    @apply py-16 md:py-24 lg:py-[120px];
+  }
+  .eyebrow-badge {
+    @apply inline-flex items-center gap-2 rounded-full border border-line bg-navy-100 px-4 py-1.5 text-xs font-semibold tracking-wide text-ink-secondary uppercase;
+  }
+  .btn-base {
+    @apply inline-flex items-center justify-center gap-2 rounded-btn font-semibold text-[15px] transition-all duration-200 min-h-[46px] px-6;
+  }
+  .btn-primary {
+    @apply btn-base bg-accent text-white hover:bg-accent-light shadow-sm hover:shadow-cardHover active:scale-[0.98];
+  }
+  .btn-secondary {
+    @apply btn-base bg-white text-navy border border-line hover:border-navy/30 hover:bg-navy-50 active:scale-[0.98];
+  }
+  .btn-dark-outline {
+    @apply btn-base bg-transparent text-white border border-white/25 hover:border-white/60 hover:bg-white/5 active:scale-[0.98];
+  }
+  .card-surface {
+    @apply rounded-card border border-line bg-white shadow-card transition-all duration-300;
+  }
+  .card-surface:hover {
+    @apply shadow-cardHover -translate-y-[3px];
+  }
+}
+
+/* Custom animations */
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.06; transform: scale(1); }
+  50% { opacity: 0.1; transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

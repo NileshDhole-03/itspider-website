@@ -70,7 +70,7 @@ export default function Contact() {
             </ul>
 
             <a
-              href="https://wa.me/919206060304"
+              href="https://wa.me/919552239552"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-btn bg-green-600 text-white px-5 py-3 text-sm font-semibold hover:bg-green-700 transition-colors w-fit mt-2"

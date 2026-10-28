@@ -130,7 +130,7 @@ export default function CourseDetail() {
               <Button href="https://itspiderspune.akamai.net.in/" variant="primary">Enroll Now</Button>
               <Button to="/contact" variant="secondary" icon={false}>Talk to Counselor</Button>
               <a
-                href="https://wa.me/919206060304"
+                href="https://wa.me/919552239552"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-btn bg-[#25D366] text-white px-6 py-3 text-[15px] font-semibold hover:bg-[#1fb855] transition-colors"

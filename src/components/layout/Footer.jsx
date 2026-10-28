@@ -69,7 +69,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-3 text-sm text-white/70">
             <li className="flex items-start gap-2">
               <Phone size={16} className="mt-0.5 shrink-0 text-accent-light" />
-              <a href="tel:+919206060304" className="hover:text-white transition-colors">+91 92060 60304</a>
+              <a href="tel:+919552239552" className="hover:text-white transition-colors">9552239552</a>
             </li>
             <li className="flex items-start gap-2">
               <Mail size={16} className="mt-0.5 shrink-0 text-accent-light" />
@@ -77,7 +77,7 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-2">
               <MapPin size={16} className="mt-0.5 shrink-0 text-accent-light" />
-              <span>3rd Floor, Dhondumama Sathe Homoeopathic Medical College Building, Near Garware College, Erandwane, Deccan Gymkhana, Pune 411004</span>
+              <span>Remote</span>
             </li>
             <li className="flex items-start gap-2">
               <Clock size={16} className="mt-0.5 shrink-0 text-accent-light" />

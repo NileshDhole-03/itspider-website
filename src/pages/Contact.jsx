@@ -53,7 +53,8 @@ export default function Contact() {
             <ul className="flex flex-col gap-4 text-sm text-ink-secondary pt-2">
               <li className="flex items-start gap-3">
                 <Phone size={17} className="text-accent mt-0.5 shrink-0" />
-                <a href="tel:+919206060304" className="hover:text-accent transition-colors">+91 92060 60304</a>
+                <a href="tel:+919552239552" className="hover:text-accent transition-colors">+919552239552
+9552239552</a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={17} className="text-accent mt-0.5 shrink-0" />
@@ -61,7 +62,7 @@ export default function Contact() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={17} className="text-accent mt-0.5 shrink-0" />
-                <span>3rd Floor, Dhondumama Sathe Homoeopathic Medical College Building, Near Garware College, Erandwane, Deccan Gymkhana, Pune, Maharashtra 411004</span>
+                <span>Remote</span>
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={17} className="text-accent mt-0.5 shrink-0" />
